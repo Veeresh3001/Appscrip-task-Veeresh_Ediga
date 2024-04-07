@@ -1,0 +1,116 @@
+.footer{
+    width: 100%;
+    /* height: fit-content; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000000;
+    padding: 20px 0px;
+}
+.long-screen{
+    width: 90%;
+}
+@media screen and (max-width: 376px){
+    .long-screen{
+        display: none;
+    }
+}
+.footer-head{
+    /* font-family: Simplon Norm; */
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
+}
+@media screen and (max-width: 376px){
+    .footer-head{
+        font-size: 16px;
+        line-height: 16px;
+    }
+}
+.footer-para{
+    /* font-family: Simplon Norm; */
+    font-size: 18px;
+    /* width: 200px; */
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    color: #FFFFFF;
+}
+@media screen and (max-width: 376px){
+    .footer-para{
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+hr{
+    border: 1px solid #928a8a;
+    width: 100%;
+}
+.sub-card{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.sub-card-input{
+    padding: 10px 15px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+.sub-btn{
+    padding: 10px 15px;
+    margin-left: 20px;
+    color: #868282;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border: 1px solid #a39f9f;
+    background-color: transparent;
+}
+.footer-card{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    gap: 20px;
+}
+.icons button{
+    width: 50px;
+    margin: 0px 10px;
+    height: 50px;
+    border: solid 1px #928a8a;
+    border-radius: 50%;
+    background-color: transparent;
+}
+.mobile-card{
+    width: 90%;
+    text-align: center;
+}
+@media screen and (min-width: 376px) {
+    .mobile-card{
+        display: none;
+    }
+}
+.mobile-sub-card{
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.mobile-footer-card{
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.mobile-footer{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
