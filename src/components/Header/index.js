@@ -28,6 +28,7 @@ const Header = () => {
             className="sel-lang"
             value={lang}
             onChange={(e) => setLang(e.target.value)}
+            name="language"
           >
             <option className="lang" value="ENG">
               ENG

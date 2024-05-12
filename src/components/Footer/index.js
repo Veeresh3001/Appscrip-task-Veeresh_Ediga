@@ -17,6 +17,7 @@ const Footer = () => (
               className="sub-card-input"
               type="text"
               placeholder="Enter your e-mail..."
+              name="subscribe"
             />
             <button type="button" className="sub-btn">
               SUBSCRIBE
@@ -92,6 +93,7 @@ const Footer = () => (
             className="sub-card-input"
             type="text"
             placeholder="Enter your e-mail..."
+            name="subscribe"
           />
           <button type="button" className="sub-btn">
             SUBSCRIBE

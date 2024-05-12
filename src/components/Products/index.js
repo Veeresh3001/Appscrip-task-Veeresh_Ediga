@@ -63,7 +63,7 @@ const Products = () => {
             </button>
           )}
         </div>
-        <select className="filter-sel">
+        <select className="filter-sel" name="sort">
           <option className="filter-sel-opt">RECOMMENDED</option>
           <option className="filter-sel-opt">NEWEST FIRST</option>
           <option className="filter-sel-opt">POPULAR</option>
