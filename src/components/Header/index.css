@@ -79,7 +79,7 @@
     list-style-type: none;
     padding: 0px;
     gap: 64px;
-    opacity: 0px;
+    /* opacity: 0px; */
     display: flex;
     align-items: center;
     justify-content: center;
