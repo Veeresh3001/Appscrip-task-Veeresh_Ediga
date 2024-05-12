@@ -13,7 +13,7 @@ import "./index.css";
 
 const Products = () => {
   const [data, setData] = useState([]);
-  const [showFilter, setShowFilter] = useState(true);
+  const [showFilter, setShowFilter] = useState(false);
   const [arrow, setArrow] = useState(true);
 
   const onclickFilteBtn = () => {
